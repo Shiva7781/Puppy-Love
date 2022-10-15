@@ -1,6 +1,6 @@
 const container = document.querySelector("#PuppyImage");
 
-let search = "hound";
+let search = localStorage.getItem("dogName");
 const dogsImage = async () => {
   let res = await fetch(`https://dog.ceo/api/breed/${search}/images`);
   let data = await res.json();

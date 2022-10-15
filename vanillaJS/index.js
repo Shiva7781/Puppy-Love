@@ -21,6 +21,8 @@ const Display = (ele) => {
     const PuppyButton = () => {
       console.log(x);
 
+      localStorage.setItem("dogName", x);
+
       window.location.href = "puppy.html";
     };
     Cards.addEventListener("click", PuppyButton);
