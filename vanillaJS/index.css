@@ -1,0 +1,44 @@
+.nav {
+    height: 51px;
+    margin: auto;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.nav a {
+    padding: 11px;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.nav a:hover {
+    background-color: teal;
+    color: white;
+}
+
+#PuppyName {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    /* border: 1px solid red; */
+}
+
+p {
+    cursor: pointer;
+    text-align: center;
+    background-color: aquamarine;
+    margin: 7%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 21%;
+}
+
+p:hover {
+    background-color: coral;
+    color: white;
+}

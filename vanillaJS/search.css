@@ -1,0 +1,20 @@
+#searchPuppy {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#input {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+img {
+    width: 251px;
+    height: 251px;
+    padding: 5%;
+    margin: auto;
+    align-items: center;
+}
